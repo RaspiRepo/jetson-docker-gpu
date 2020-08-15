@@ -38,8 +38,10 @@ sudo reboot
 
 ## GPU-CUDA query test
 
+## Test command to check GPU access
+```
 docker run -it jitteam/devicequery ./deviceQuery
-
+```
 
 ```jetson@jetson-desktop:~$ docker run -it jitteam/devicequery ./deviceQuery
 ./deviceQuery Starting...
